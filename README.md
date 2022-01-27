@@ -9,5 +9,5 @@ _[Employee App](https://share.streamlit.io/anishachoudhury/employee_app/main/app
 
 ##### Steps to run the app locally:
 1. Open anaconda prompt.
-2. Navigate to your app folder (cd <path of your app folder>)
+2. Navigate to your app folder (cd `path of your app folder`)
 3. To run the app type **streamlit run app.py**
