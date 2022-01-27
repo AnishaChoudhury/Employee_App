@@ -2,7 +2,7 @@
 
 #### This app is created using streamlit and it is deployed on streamlit share. 
 
-Click the below link to access the app:
+Click the link to access the app:
 _[Employee App](https://share.streamlit.io/anishachoudhury/employee_app/main/app.py)_
 
 **To run it locally, you need to have anaconda on your system.**
