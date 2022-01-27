@@ -11,7 +11,7 @@ def app():
     clickSubmit = st.button('Submit')
 
     if clickSubmit == True:
-        df = pd.read_csv('user.txt')
+        df = pd.read_csv(st.secrets["information_file"])
         res = (df[df['Employee_ID'] == int(eid)])
         st.dataframe(res)
 

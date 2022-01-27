@@ -21,7 +21,7 @@ def app():
 
     clickSubmit = st.button('Update')
     if clickSubmit == True:
-        df = pd.read_csv('user.txt')
+        df = pd.read_csv(st.secrets["information_file"])
         res = (df[df['Employee_ID'] == int(eid)])
         st.markdown('**The Old entry was as follows: **')
         st.dataframe(res)
@@ -44,4 +44,4 @@ def app():
         df.reset_index(inplace=True)
 
         #### This is used to save csv as text file.
-        df.to_csv('user.txt', index=None, sep=',')
+        df.to_csv(st.secrets["information_file"], index=None, sep=',')
